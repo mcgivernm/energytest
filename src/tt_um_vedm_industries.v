@@ -1,7 +1,9 @@
 module tt_um_vedm_industries (
     input wire [7:0] ui_in,
     output wire [7:0] uo_out,
+    /* verilator lint_off UNUSEDSIGNAL /
     input wire [7:0] uio_in,
+    / verilator lint_on UNUSEDSIGNAL /
     output wire [7:0] uio_out,
     output wire [7:0] uio_oe,
     input wire ena,
